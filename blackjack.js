@@ -72,7 +72,7 @@ const deal = () => {
 
 const computeValue = (card) => {
   let cardValue;
-  if (card.startsWith("10")) {
+  if (card[1] === "0") {
     return (cardValue = 10);
   }
 
